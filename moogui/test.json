@@ -1,0 +1,24 @@
+{
+    "nodes": [
+        {
+            "type": "FileMeshGenerator_node",
+            "x": 4733,
+            "y": 5122,
+            "uuid": "fb254b28-ef69-4fc1-8619-ed4fd0581689"
+        },
+        {
+            "type": "TransformGenerator_node",
+            "x": 5178,
+            "y": 4946,
+            "uuid": "4d4c8ab7-4047-4d3c-a00d-afec8d2d2ab4"
+        }
+    ],
+    "connections": [
+        {
+            "start_id": "fb254b28-ef69-4fc1-8619-ed4fd0581689",
+            "end_id": "4d4c8ab7-4047-4d3c-a00d-afec8d2d2ab4",
+            "start_pin": "output",
+            "end_pin": "input"
+        }
+    ]
+}
